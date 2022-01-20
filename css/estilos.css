@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* INDEX */
+/* ------------.............-----HEADER---------................------- */
+.header{
+    background-color: rgba(0, 32, 96);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 1280px;   
+
+}
+
+.header div{
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.header section h2{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    top: 9px;
+    left: 1px;
+    
+}
+
+
+.header ul{
+    display: flex;
+    list-style: none;
+        }
+
+.header li{
+    margin: 0px 40px;
+    margin: 10px 30px;
+    font-size: 14px;
+    
+
+    
+}
+
+.header .superior{
+    color: rgb(224, 138, 25);
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.header a{
+    color: white;
+    height: 50px;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+.header a:hover{
+    color: orange;
+    border-radius: 10%;
+}
+
+.header img{
+    border-radius: 10%;
+    position: relative;
+    height: 60px;
+    margin: 20px 10px 0px 20px;
+}
+
+.header h1{
+    color: orange;
+    position: relative;
+    height: 50px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0px 0px 0px;
+    
+}
+
+.header h2{
+    color: orange;
+    position: relative;
+    height: 50px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+
+/* -------.....................-BODY------.................--------- */
+.main{
+    width: 1280px;
+    height: 540.027px;
+}
+    
+
+.grillaIndex {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.55fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "consultoria contratista tecnologia capacitacion";
+
+    color: rgb(0, 32, 96); 
+    margin: 40px 0 0 0 ;
+  }
+
+  .grillaIndex p{
+      width: 250px;
+  }
+  
+  .consultoria {
+      
+    grid-area: consultoria;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+  
+  .contratista {
+      
+    grid-area: contratista;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0 ;
+
+}
+  
+  .tecnologia {
+      
+    grid-area: tecnologia;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+  .capacitacion {
+      
+    grid-area: capacitacion;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+
+
+.main h2{
+    margin: 60px 0 0 0;
+    position: relative;
+    left: 380px;
+}
+
+
+.main img{
+    width: 250px;
+    height: 290px;
+    border-radius: 10%;
+    padding: 1px;
+    box-shadow: 0 10px 10px gray;
+    cursor: pointer;
+    
+   
+}
+
+
+
+/* ------------------------------FOOTER-------------------------- */
+.footer{
+    width: 1280px;
+    height: 100px;
+}
+
+ .footer div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    height: 100px;
+}   
+
+
+.footer img{
+    width: auto;
+    height: 50px;
+}
+
+
+
+/* CONTRATISTA */
+
+
+.mainContratista{
+    width: 1280px;
+    height: 540.027px;
+}
+
+
+.grillaContratista {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.55fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "desarrollo explotacion contrat fabricacion";
+
+    color: rgb(0, 32, 96); 
+    margin: 40px 0 0 0 ;
+  }
+
+  .grillaContratista p{
+      width: 250px;
+  }
+  
+  .desarrollo {      
+    grid-area: desarrollo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+  
+  .explotacion {      
+    grid-area: explotacion;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+  
+  .contrat {      
+    grid-area: contrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+  .fabricacion {      
+    grid-area: fabricacion;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContratista div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 1280px;
+}
+
+.mainContratista img{
+    width: 250px;
+}
+
+.mainContratista p{
+    width: 250px;
+}
+
+.mainContratista section{
+    margin: 60px 10px 31.296px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContratista h2{
+    margin: 60px 0 0 0;
+    position: relative;
+    left: 250px;
+    color: rgb(0, 32, 96);
+}
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:768px){
+    /* INDEX */
+
+    .grillaIndex {
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.55fr 0.55fr 0.55fr 0.55fr;
+        gap: 0px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "consultoria" 
+          "contratista" 
+          "tecnologia" 
+          "capacitacion";
+    
+        color: rgb(0, 32, 96); 
+        margin: 40px 0 0 0 ;
+      }
+
+      .main{
+       
+        height: 1700px;
+    }
+
+    .main h2{
+        margin: 60px 0 0 0;
+        position: relative;
+        left: 250px;
+    }
+
+
+
+
+
+
+}
