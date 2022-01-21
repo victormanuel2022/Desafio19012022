@@ -16,8 +16,8 @@
       "section menuInferior";
       background-color: rgba(0, 32, 96);
   }
-  
-  .section {      
+
+  .section {
     grid-area: section;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
 .section div{
     display: flex;
     align-items: flex-end;
-  
+
 }
 
 .section h2{
@@ -46,7 +46,7 @@
     position: relative;
     top: -14px;
     left: 1px;
-    
+
 }
 
 .section h1{
@@ -56,10 +56,10 @@
     left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px 0px 0px 0px;
-    
+
 }
-  
-  .menuSuperior {      
+
+  .menuSuperior {
     grid-area: menuSuperior;
     color: rgb(224, 138, 25);
     display: flex;
@@ -70,7 +70,7 @@
 
 }
 
-  .menuInferior {      
+  .menuInferior {
     grid-area: menuInferior;
     display: flex;
     justify-content: end;
@@ -79,7 +79,7 @@
 
 .menuInferior a{
     color: white;
-    height: 50px;    
+    height: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     text-decoration: none;
@@ -106,17 +106,17 @@
     margin: 0px 40px;
     margin: 10px 30px;
     font-size: 14px;
-    
+
 }
 
 
-  
+
 /* -------.....................-BODY------.................--------- */
 .main{
     width: auto;
     height: 540.027px;
 }
-    
+
 
 .grillaIndex {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -126,27 +126,27 @@
     grid-template-areas:
       "consultoria contratista tecnologia capacitacion";
 
-    color: rgb(0, 32, 96); 
+    color: rgb(0, 32, 96);
     margin: 40px 0 0 0 ;
   }
 
   .grillaIndex p{
       width: 250px;
   }
-  
+
   .consultoria {
-      
+
     grid-area: consultoria;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-  
+
   .contratista {
-      
+
     grid-area: contratista;
     display: flex;
     flex-direction: column;
@@ -155,9 +155,9 @@
     margin: 15px 0 0 0 ;
 
 }
-  
+
   .tecnologia {
-      
+
     grid-area: tecnologia;
     display: flex;
     flex-direction: column;
@@ -165,9 +165,9 @@
     align-items: center;
 
 }
-  
+
   .capacitacion {
-      
+
     grid-area: capacitacion;
     display: flex;
     flex-direction: column;
@@ -175,7 +175,7 @@
     align-items: center;
 
 }
-  
+
 
 
 .main h2{
@@ -193,8 +193,8 @@
     padding: 1px;
     box-shadow: 0 10px 10px gray;
     cursor: pointer;
-    
-   
+
+
 }
 
 
@@ -211,7 +211,7 @@
     align-items: center;
     color: gray;
     height: 100px;
-}   
+}
 
 
 .footer img{
@@ -238,35 +238,35 @@
     grid-template-areas:
       "desarrollo explotacion contrat fabricacion";
 
-    color: rgb(0, 32, 96); 
+    color: rgb(0, 32, 96);
     margin: 40px 0 0 0 ;
   }
 
   .grillaContratista p{
       width: 250px;
   }
-  
-  .desarrollo {      
+
+  .desarrollo {
     grid-area: desarrollo;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-  
-  .explotacion {      
+
+  .explotacion {
     grid-area: explotacion;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 
 }
-  
-  .contrat {      
+
+  .contrat {
     grid-area: contrat;
     display: flex;
     flex-direction: column;
@@ -274,8 +274,8 @@
     align-items: center;
 
 }
-  
-  .fabricacion {      
+
+  .fabricacion {
     grid-area: fabricacion;
     display: flex;
     flex-direction: column;
@@ -309,11 +309,92 @@
 /* RESPONSIVE */
 
 
+@media(max-width:1024px){
+
+    /* Contratista */
+
+    .grillaContratista {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.55fr 0.55fr;
+        gap: 0px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "desarrollo explotacion"
+          "contrat fabricacion";
+
+        color: rgb(0, 32, 96);
+        margin: 40px 0 0 0 ;
+      }
+
+      .mainContratista{
+          height: 750px;
+      }
+
+      .fabricacion h3{
+          width: 270px;
+
+      }
+
+      .mainContratista h2{
+          position: relative;
+          left: 130px;
+      }
+
+
+/* Contratista */
+.menuInferior a{
+  
+    font-size: 15px;
+   
+} 
+
+.menuInferior li{
+    width: 30px;
+}
+
+.menuInferior ul{
+    position: relative;
+    left: -100px;
+}
+
+/* INDEX */
+
+.grillaIndex {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.55fr 0.55fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "consultoria contratista"
+      "tecnologia capacitacion";
+
+    color: rgb(0, 32, 96);
+    margin: 40px 0 0 0 ;
+  }
+
+  .main h2{
+      position: relative;
+      left: 50px;
+  }
+
+  .main{
+      height: 950px;
+  }
+
+
+
+
+
+
+
+
 @media(max-width:768px){
     /* -------------INDEX ---------------*/
-   
+
     /* HEADER */
-  
+
     .header {  display: grid;
         grid-template-columns: 40vw 40vw;
         grid-template-rows: 0.2fr 0.6fr;
@@ -321,8 +402,8 @@
         grid-auto-flow: row;
         grid-template-areas:
         "section menuInferior"
-        "menuSuperior menuInferior";          
-          
+        "menuSuperior menuInferior";
+
       }
 
       .section img{
@@ -335,43 +416,43 @@
       .section div{
         display: flex;
         flex-direction: column;
-      
+
     }
-    
+
     .section h2{
-        font-size: 18px;      
+        font-size: 18px;
         top: -5px;
         left: -100px;
-        
+
     }
-    
+
     .section h1{
         color: orange;
         position: relative;
         font-size: 20px;
         left: 20px;
-        margin: 10px 0 0 0;     
-        
+        margin: 10px 0 0 0;
+
     }
-        
-      .menuInferior {      
+
+      .menuInferior {
         grid-area: menuInferior;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-    
+
+
     }
-    
+
     .menuInferior a{
         color: white;
         font-size: 16px;
         margin: 0 10px 0 -30px;
-               
-    
+
+
     }
-    
-    
+
+
     .menuInferior a:hover{
         color: orange;
         border-radius: 10%;
@@ -380,49 +461,49 @@
     .menuInferior li{
         height: 40px;
     }
-    
+
     .header ul{
         display: flex;
         flex-direction: column;
         list-style: none;
     }
-    
+
 
     /* MAIN-INDEX */
 
     .grillaIndex {
-        
+
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.55fr 0.55fr 0.55fr 0.55fr;
         gap: 0px 20px;
         grid-auto-flow: row;
         grid-template-areas:
-          "consultoria" 
-          "contratista" 
-          "tecnologia" 
+          "consultoria"
+          "contratista"
+          "tecnologia"
           "capacitacion";
-    
-        color: rgb(0, 32, 96); 
+
+        color: rgb(0, 32, 96);
         margin: 40px 0 0 0 ;
       }
 
       .main{
-       
+
         height: 2000px;
         width: 80vw;
     }
 
     .main h2{
         left: 20px;
-        
+
     }
 
     .header h1{
        height: 100px;
-        
+
     }
-    
+
 
     /* FOOTER */
     .footer img{
@@ -438,11 +519,11 @@
     .footer{
         height: 20px;
     }
-    
-     .footer div{        
+
+     .footer div{
         height: 20px;
-    } 
-    
+    }
+
      /* -------------CONTRATISTA ---------------*/
 
       .grillaContratista {  display: grid;
@@ -455,20 +536,20 @@
           "explotacion"
           "contrat"
           "fabricacion";
-    
-        color: rgb(0, 32, 96); 
+
+        color: rgb(0, 32, 96);
         margin: 40px 0 0 0 ;
-        
+
       }
 
       .mainContratista{
-       
+
         height: 2000px;
         width: 100vw;
     }
 
     .mainContratista h2{
-        left: 20px;       
+        left: 20px;
         margin: 60px 100px 0 10px;
         position: relative;
         left: 30px;
@@ -482,37 +563,37 @@
         margin: 10px 0 0 0;
     }
 
-    
+
 
 }
 
 
 @media(max-width:425px){
     /* -------------INDEX ---------------*/
-   
+
     /* HEADER */
-  
-    
+
+
 
       .section img{
-       
-        
+
+
         position: relative;
         left: -6px;
     }
 
     .section h2{
-       
+
         left: -35px;
-        
+
     }
-    
+
     .section h1{
-        
+
         left: 10px;
-       
+
     }
-         
+
     .superior li{
         margin: 0 0 0 10px;
         font-size: 13.5px;
@@ -525,14 +606,14 @@
     .menuInferior ul{
         margin: 30px 0 0 5px ;
     }
-     
-    
+
+
     /* MAIN-INDEX */
 
     .grillaIndex img{
         height: 290px;
         margin: 0 45px 0 0;
-    } 
+    }
 
     .grillaIndex p{
         margin: 0 45px 0 0;
@@ -540,7 +621,7 @@
     }
 
     /* -------------CONTRATISTA ---------------*/
-    
+
     .mainContratista{
         height: 2000px;
     }
@@ -556,19 +637,26 @@
         font-size: 21px;
     }
 
-  
+    /* FOOTER-INDEX */
 
+    
 
-
-     
-        
       
-
     
 
 
- 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
