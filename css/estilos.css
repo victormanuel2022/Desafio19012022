@@ -284,12 +284,6 @@
 
 }
 
-.mainContratista div{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    width: auto;
-}
 
 .mainContratista img{
     width: 250px;
@@ -302,12 +296,7 @@
     width: 250px;
 }
 
-.mainContratista section{
-    margin: 60px 10px 31.296px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .mainContratista h2{
     margin: 60px 0 0 0;
@@ -322,8 +311,7 @@
 
 @media(max-width:768px){
     /* -------------INDEX ---------------*/
-
-    
+   
     /* HEADER */
   
     .header {  display: grid;
@@ -365,7 +353,6 @@
         margin: 10px 0 0 0;     
         
     }
-      
         
       .menuInferior {      
         grid-area: menuInferior;
@@ -428,6 +415,7 @@
 
     .main h2{
         left: 20px;
+        
     }
 
     .header h1{
@@ -455,7 +443,132 @@
         height: 20px;
     } 
     
-   
+     /* -------------CONTRATISTA ---------------*/
 
+      .grillaContratista {  display: grid;
+        grid-template-columns: 80vw;
+        grid-template-rows: 0.55fr 0.55fr 0.55fr 0.55fr;
+        gap: 20px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "desarrollo"
+          "explotacion"
+          "contrat"
+          "fabricacion";
+    
+        color: rgb(0, 32, 96); 
+        margin: 40px 0 0 0 ;
+        
+      }
+
+      .mainContratista{
+       
+        height: 2000px;
+        width: 100vw;
+    }
+
+    .mainContratista h2{
+        left: 20px;       
+        margin: 60px 100px 0 10px;
+        position: relative;
+        left: 30px;
+    }
+
+    .fabricacion h3{
+        width: 60vw;
+    }
+
+    .grillaContratista p{
+        margin: 10px 0 0 0;
+    }
+
+    
+
+}
+
+
+@media(max-width:425px){
+    /* -------------INDEX ---------------*/
+   
+    /* HEADER */
+  
+    
+
+      .section img{
+       
+        
+        position: relative;
+        left: -6px;
+    }
+
+    .section h2{
+       
+        left: -35px;
+        
+    }
+    
+    .section h1{
+        
+        left: 10px;
+       
+    }
+         
+    .superior li{
+        margin: 0 0 0 10px;
+        font-size: 13.5px;
+    }
+
+    .menuInferior li{
+        height: 30px;
+    }
+
+    .menuInferior ul{
+        margin: 30px 0 0 5px ;
+    }
+     
+    
+    /* MAIN-INDEX */
+
+    .grillaIndex img{
+        height: 290px;
+        margin: 0 45px 0 0;
+    } 
+
+    .grillaIndex p{
+        margin: 0 45px 0 0;
+
+    }
+
+    /* -------------CONTRATISTA ---------------*/
+    
+    .mainContratista{
+        height: 2000px;
+    }
+    .grillaContratista img{
+        height: 290px;
+        width: 350px;
+        margin: 0 -45px 0 0px;
+    }
+
+    .grillaContratista p{
+        width: 350px;
+        margin: 15px -45px 0 0px;
+        font-size: 21px;
+    }
+
+  
+
+
+
+     
+        
+      
+
+    
+
+
+ 
+
+    
 
 }
