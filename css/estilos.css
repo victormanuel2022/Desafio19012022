@@ -12,7 +12,7 @@
     align-items: center;
     align-content: center;
     height: 100px;
-    width: 1280px;   
+    width: auto;   
 
 }
 
@@ -101,7 +101,7 @@
 
 /* -------.....................-BODY------.................--------- */
 .main{
-    width: 1280px;
+    width: auto;
     height: 540.027px;
 }
     
@@ -188,7 +188,7 @@
 
 /* ------------------------------FOOTER-------------------------- */
 .footer{
-    width: 1280px;
+    width: auto;
     height: 100px;
 }
 
@@ -212,7 +212,7 @@
 
 
 .mainContratista{
-    width: 1280px;
+    width: auto;
     height: 540.027px;
 }
 
@@ -275,7 +275,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 1280px;
+    width: auto;
 }
 
 .mainContratista img{
