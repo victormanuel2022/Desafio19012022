@@ -338,10 +338,10 @@
       }
 
       .section img{
-        height: 50px;
-        margin: 40px 2px 5px 6px;
+        height: 60px;
+        margin: 40px 2px 5px 15px;
         position: relative;
-        left: -15px;
+        left: -70px;
     }
 
       .section div{
@@ -353,7 +353,7 @@
     .section h2{
         font-size: 18px;      
         top: -5px;
-        left: -35px;
+        left: -100px;
         
     }
     
@@ -371,14 +371,16 @@
         grid-area: menuInferior;
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
+        
     
     }
     
     .menuInferior a{
         color: white;
-        font-size: 15px;
-        margin: 0 50px 0 -15px;       
+        font-size: 16px;
+        margin: 0 10px 0 -30px;
+               
     
     }
     
@@ -386,6 +388,10 @@
     .menuInferior a:hover{
         color: orange;
         border-radius: 10%;
+    }
+
+    .menuInferior li{
+        height: 40px;
     }
     
     .header ul{
