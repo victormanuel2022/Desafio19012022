@@ -169,7 +169,8 @@
 .main h2{
     margin: 60px 0 0 0;
     position: relative;
-    left: 380px;
+    left: 40vw;
+    color: rgb(0, 32, 96);
 }
 
 
@@ -296,7 +297,7 @@
 .mainContratista h2{
     margin: 60px 0 0 0;
     position: relative;
-    left: 250px;
+    left: 40vw;
     color: rgb(0, 32, 96);
 }
 
