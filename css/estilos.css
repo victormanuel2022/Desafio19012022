@@ -328,13 +328,36 @@
       .main{
        
         height: 1700px;
+        width: 80vw;
     }
 
     .main h2{
-        margin: 60px 0 0 0;
-        position: relative;
-        left: 250px;
+        left: 20px;
     }
+
+    .header h1{
+       height: 100px;
+        
+    }
+    
+    .footer img{
+        width: auto;
+        height: 10px;
+    }
+
+    .footer p{
+        font-size: 5px;
+        color: rgb(0, 32, 96);
+    }
+
+    .footer{
+        height: 20px;
+    }
+    
+     .footer div{        
+        height: 20px;
+    }   
+    
 
 
 
