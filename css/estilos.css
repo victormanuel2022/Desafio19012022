@@ -551,6 +551,58 @@
         
     }
 
+    /* contactanos */
+
+    .mainContactanos{
+        height: auto;
+    }
+
+
+    .mainContactanos h2{
+        position: relative;
+        left: 80px;
+        width: 40vw;
+    }
+
+    .mainContactanos div{
+        flex-direction: column;
+    }
+
+    .mainContactanos iframe{
+        width: 50vw;
+        height: 20vh;
+        position: relative;
+        left: 12px;
+        border-radius: 50%;
+        
+    }
+
+    .mainContactanos h3{
+        position: relative;
+        left: 22vw;
+    }
+
+    .seccionContactanos h3{
+        position: relative;
+        left: 15vw;
+    }
+
+    .seccionContactanos form{
+        width: 45vw;
+        position: relative;
+        left: 30px;
+    }
+
+    /* tecnología */
+    .mainTecnologia h2{
+        position: relative;
+        left: 20px;
+    }
+
+    
+
+   
+
 }
 
 
@@ -638,7 +690,7 @@
     }
 
 
-    /* MAIN-INDEX */
+    /*index*/
 
     .grillaIndex {
 
@@ -674,7 +726,7 @@
     }
 
 
-    /* FOOTER */
+    /* footer */
     .footer img{
         width: auto;
         height: 15px;
@@ -693,7 +745,7 @@
         height: 20px;
     }
 
-     /* -------------CONTRATISTA ---------------*/
+     /* contratista*/
 
       .grillaContratista {  display: grid;
         grid-template-columns: 80vw;
@@ -761,6 +813,41 @@
         position: relative;
         left: 80px;
     }
+
+      /* contactanos */
+
+      
+    .mainContactanos h2{
+        position: relative;
+        left: 80px;
+        width: 70vw;
+    }
+    
+    .mainContactanos iframe{
+        width: 80vw;
+        height: 20vh;
+        position: relative;
+        left: 23px;
+        border-radius: 50%;
+        
+    }
+
+    .mainContactanos h3{
+        position: relative;
+        left: 35vw;
+    }
+
+    .seccionContactanos h3{
+        position: relative;
+        left: 25vw;
+    }
+
+    .seccionContactanos form{
+        width: 75vw;
+        position: relative;
+        left: 35px;
+    }
+
 
 
 }
@@ -852,6 +939,39 @@
     .capacitacionMain div{
         position: relative;
         left: 65px;
+    }
+
+     /* contactanos */
+
+      
+     .mainContactanos h2{
+        position: relative;
+        left: 50px;
+        width: 80vw;
+    }
+    
+    .mainContactanos iframe{
+        width: 90vw;
+        height: 20vh;
+        position: relative;
+        left: 23px;
+        border-radius: 50%;
+        
+    }
+
+    .mainContactanos h3{
+        position: relative;
+        left: 40vw;
+    }
+
+    .seccionContactanos h3{
+        position: relative;
+        left: 25vw;
+    }
+
+    .seccionContactanos form{
+        width: 82vw;
+        
     }
 
     
