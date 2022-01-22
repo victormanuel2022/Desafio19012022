@@ -428,7 +428,7 @@
     padding: 5px;
 }
 
-/* RESPONSIVE */
+/* ----------------------------------RESPONSIVE-------------- */
 
 
 @media(max-width:1024px){
@@ -755,6 +755,12 @@
         padding: 30px 0;
     }
 
+    /* capacitación */
+
+    .capacitacionMain h2{
+        position: relative;
+        left: 80px;
+    }
 
 
 }
@@ -834,6 +840,18 @@
         width: 90vw;
         position: relative;
         left: 35px;
+    }
+
+     /* capacitación */
+
+     .capacitacionMain h2{
+        position: relative;
+        left: 40px;
+    }
+
+    .capacitacionMain div{
+        position: relative;
+        left: 65px;
     }
 
     
